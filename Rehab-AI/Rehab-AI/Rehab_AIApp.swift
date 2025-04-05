@@ -13,9 +13,7 @@ struct Rehab_AIApp: App {
 
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-            LogIn()
+            Dashboard()
         }
     }
 }
