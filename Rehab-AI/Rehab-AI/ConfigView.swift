@@ -22,6 +22,6 @@ class ConfigViewController: UIViewController {
     }
 
     @IBAction func NotificationsEnabled(_ sender: UISwitch) {
-        viewModel.UpdateNotifications(status: sender.isOn)
+        viewModel.UpdateNotifications(estado: sender.isOn)
     }
 }
